@@ -1,0 +1,13 @@
+{
+	"identifier" = "oolite.oxp.cim.combat-simulator";
+	"required_oolite_version" = "1.79";
+	"title" = "Combat Simulator";
+	"version" = "1.1";
+	"category" = "Activities";
+	"description" = "Adds a combat simulator to the interfaces screen of some high-tech stations where you can set up controlled battles against particular opponents. Requires Ship Storage Helper.";
+	"download_url" = "http://compsoc.dur.ac.uk/~cim/oolite/Combat_Simulator_1.1.oxz";
+	"author" = "cim";
+	"information_url" = "http://wiki.alioth.net/index.php/Combat_Simulator_OXP";
+	"license" = "CC-BY-SA 3.0";
+	/* TODO: depend on Ship Storage Helper */
+}

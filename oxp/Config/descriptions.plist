@@ -1,0 +1,7 @@
+{
+	"combatSimulator_beginningAttack" = "Starting combat now";
+	"combatSimulator_hitTarget" = ("You need to dodge more!","Don't let us get a lock on you!","Stay aware of the situation.");
+	"combatSimulator_attackLowEnergy" = ("Good shooting!","Don't give up now.","Don't forget about other opponents");
+	"combatSimulator_incomingMissile" = ("Now that's not very sporting.","Maybe you should just try an easier simulation?","You're only cheating yourself.");
+
+}

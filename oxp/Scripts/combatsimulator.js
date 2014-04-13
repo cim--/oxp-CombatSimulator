@@ -21,6 +21,15 @@ this.startUp = this.shipWillExitWitchspace = function() {
 		}
 }
 
+this.startUpComplete = function()
+{
+
+	worldScripts["oolite-libPriorityAI"]._setCommunication("_combatSimulator","generic","oolite_beginningAttack","[combatSimulator_beginningAttack]");
+	worldScripts["oolite-libPriorityAI"]._setCommunication("_combatSimulator","generic","oolite_hitTarget","[combatSimulator_hitTarget]");
+	worldScripts["oolite-libPriorityAI"]._setCommunication("_combatSimulator","generic","oolite_attackLowEnergy","[combatSimulator_attackLowEnergy]");
+	worldScripts["oolite-libPriorityAI"]._setCommunication("_combatSimulator","generic","oolite_incomingMissile","[combatSimulator_incomingMissile]");
+}
+
 
 this._setUpFight = function() {
 		this.$fight = new Object;
@@ -75,8 +84,6 @@ this._setUpHandlers = function() {
 						var s = this.$simulator.ships[i];
 						s.target = player.ship;
 						s.accuracy = this.$fight.skill;
-						s.setAI("interceptAI.plist");
-						s.displayName = "Simulator Fighter";
 						for (var j=0;j<s.subEntities.length;j++) {
 								s.subEntities[j].forwardWeapon = "EQ_WEAPON_NONE";
 						}
@@ -105,7 +112,7 @@ this._setUpHandlers = function() {
 }
 
 this._setUpEnvironment = function() {
-		this.$simpos = system.sun.position.cross(system.mainPlanet.position).direction().multiply(4E5).subtract(system.mainPlanet.position);
+		this.$simpos = system.sun.position.cross(system.mainPlanet.position).direction().multiply(4E9).subtract(system.mainPlanet.position);
 		
 		this.$buoy = system.addShips("combatsimulator-buoy",1,this.$simpos,0)[0];
 		this.$simulator = system.addGroup(this.$fight.role,this.$fight.number,this.$simpos,12E3);

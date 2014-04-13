@@ -1,0 +1,145 @@
+{
+		"CombatSimulator_Stage1_Header" = "Select opponent type";
+		"CombatSimulator_Stage2_Header" = "Select opponent skill";
+		"CombatSimulator_Stage3_Header" = "Select opponent numbers";
+
+		"CombatSimulator_Text" = "Your opponents are only equipped with laser weapons. You will learn more from the simulator if you restrict your own use of weapons similarly. The simulation will end early if the buoy is no longer within scanner range.";
+
+		"CombatSimulator_Stage1_Choice" = {
+				"combatsimulator" = {
+						"alignment" = "LEFT";
+						"text" = "Random";
+						"color" = "cyanColor";
+				};
+				"combatsimulator-1" = {
+						"text" = "Light fighter";
+						"alignment" = "LEFT";
+						"color" = "greenColor";
+				};
+				"combatsimulator-1a" = {
+						"text" = "Mamba";
+						"alignment" = "CENTER";
+						"color" = "greenColor";
+				};
+				"combatsimulator-1b" = {
+						"text" = "Cobra Mk I";
+						"alignment" = "CENTER";
+						"color" = "greenColor";
+				};
+				"combatsimulator-1c" = {
+						"text" = "Sidewinder";
+						"alignment" = "CENTER";
+						"color" = "greenColor";
+				};
+				"combatsimulator-2" = {
+						"text" = "Medium fighter";
+						"alignment" = "LEFT";
+						"color" = "yellowColor";
+				};
+				"combatsimulator-2a" = {
+						"text" = "Sidewinder Escort";
+						"alignment" = "CENTER";
+						"color" = "yellowColor";
+				};
+				"combatsimulator-2b" = {
+						"text" = "Gecko";
+						"alignment" = "CENTER";
+						"color" = "yellowColor";
+				};
+				"combatsimulator-2c" = {
+						"text" = "Krait";
+						"alignment" = "CENTER";
+						"color" = "yellowColor";
+				};
+				"combatsimulator-3" = {
+						"text" = "Heavy fighter";
+						"alignment" = "LEFT";
+						"color" = "orangeColor";
+				};
+				"combatsimulator-3a" = {
+						"text" = "Cobra Mk III";
+						"alignment" = "CENTER";
+						"color" = "orangeColor";
+				};
+				"combatsimulator-3b" = {
+						"text" = "Python";
+						"alignment" = "CENTER";
+						"color" = "orangeColor";
+				};
+				"combatsimulator-3c" = {
+						"text" = "Iron Sidewinder";
+						"alignment" = "CENTER";
+						"color" = "orangeColor";
+				};
+				"combatsimulator-4" = "";
+				"combatsimulator-5" = "";
+		};
+
+		"CombatSimulator_Stage2_Choice" = {
+				"0acc-5" = {
+						"text" = "Unqualified";
+						"color" = "greenColor";
+				};
+				"1acc+0" = {
+						"text" = "Harmless";
+						"color" = "greenColor";
+				};
+				"2acc+4" = {
+						"text" = "Mostly Harmless";
+						"color" = "greenColor";
+				};
+				"3acc+6" = {
+						"text" = "Poor";
+						"color" = "yellowColor";
+				};
+				"4acc+7" = {
+						"text" = "Average";
+						"color" = "yellowColor";
+				};
+				"5acc+8" = {
+						"text" = "Above Average";
+						"color" = "orangeColor";
+				};
+				"6acc10" = {
+						"text" = "Competent";
+						"color" = "redColor";
+				};
+				"7acc0" = "";
+				"8acc0" = "";
+				"9acc0" = "";
+		};
+		
+		"CombatSimulator_Stage3_Choice" = {
+				"1" = {
+						"text" = "One";
+						"color" = "greenColor";
+				};
+				"2" = {
+						"text" = "Two";
+						"color" = "greenColor";
+				};
+				"3" = {
+						"text" = "Three";
+						"color" = "yellowColor";
+				};
+				"4" = {
+						"text" = "Four";
+						"color" = "orangeColor";
+				};
+				"5" = {
+						"text" = "Five";
+						"color" = "redColor";
+				};
+				"6" = {
+						"text" = "Six";
+						"color" = "redColor";
+				};
+				"7" = "";
+				"8" = "";
+				"9" = "";
+		};
+
+
+
+
+}

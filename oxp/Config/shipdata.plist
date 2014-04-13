@@ -1,0 +1,135 @@
+{
+		"combatsimulator-buoy" = {
+				"like_ship" = "buoy";
+				"subentities" = (
+						"*FLASHER* 0 0 0 120 2 0 300"
+				);
+				"max_energy" = "100";
+				"energy_recharge_rate" = "10";
+//				"script" = "combatsimulator-buoy.js";
+				"bounty" = 0;
+				"roles" = "combatsimulator-buoy";
+				"scan_class" = "CLASS_BUOY";
+				"display_name" = "Simulator Buoy - stay within scanner range!";
+		};
+
+		"combatsimulator-mamba" = {
+				"like_ship" = "mamba";
+				counts_as_kill = 0;
+				"ai_type" = "pirateAI.plist";
+				has_escape_pod = 0;
+				missiles = 0;
+				"forward_weapon_type" = "WEAPON_PULSE_LASER";
+				"bounty" = 0;
+				"roles" = "combatsimulator combatsimulator-1 combatsimulator-1a";
+//				"script" = "combatsimulator_ship.js";
+		};
+
+		"combatsimulator-cobra1" = {
+				"like_ship" = "cobramk1";
+				counts_as_kill = 0;
+				"ai_type" = "pirateAI.plist";
+				has_escape_pod = 0;
+				missiles = 0;
+				"bounty" = 0;
+				"forward_weapon_type" = "WEAPON_PULSE_LASER";
+				"aft_weapon_type" = "WEAPON_PULSE_LASER";
+				"roles" = "combatsimulator combatsimulator-1 combatsimulator-1b";
+//				"script" = "combatsimulator_ship.js";
+		};
+		"combatsimulator-sidewinder1" = {
+				"like_ship" = "sidewinder";
+				counts_as_kill = 0;
+				"forward_weapon_type" = "WEAPON_PULSE_LASER";
+				has_escape_pod = 0;
+				missiles = 0;
+				"bounty" = 0;
+				"roles" = "combatsimulator combatsimulator-1 combatsimulator-1c";
+//				"script" = "combatsimulator_ship.js";
+		};
+
+		"combatsimulator-sidewinder2" = {
+				"like_ship" = "sidewinder";
+				counts_as_kill = 0;
+				"ai_type" = "pirateAI.plist";
+				"forward_weapon_type" = "WEAPON_BEAM_LASER";
+				has_escape_pod = 0;
+				missiles = 0;
+				"bounty" = 0;
+				"roles" = "combatsimulator combatsimulator-2 combatsimulator-2a";
+//				"script" = "combatsimulator_ship.js";
+		};
+
+		"combatsimulator-gecko" = {
+				"like_ship" = "gecko";
+				counts_as_kill = 0;
+				"ai_type" = "pirateAI.plist";
+				"forward_weapon_type" = "WEAPON_BEAM_LASER";
+        "aft_weapon_type" = "WEAPON_BEAM_LASER";
+				has_escape_pod = 0;
+				missiles = 0;
+				"bounty" = 0;
+				"has_fuel_injection" = 1;
+				"roles" = "combatsimulator combatsimulator-2 combatsimulator-2b";
+//				"script" = "combatsimulator_ship.js";
+		};
+
+		"combatsimulator-krait" = {
+				"like_ship" = "krait";
+				counts_as_kill = 0;
+				"ai_type" = "pirateAI.plist";
+				"forward_weapon_type" = "WEAPON_BEAM_LASER";
+				has_escape_pod = 0;
+				missiles = 0;
+				"bounty" = 0;
+				"has_fuel_injection" = 1;
+				"roles" = "combatsimulator combatsimulator-2 combatsimulator-2c";
+//				"script" = "combatsimulator_ship.js";
+		};
+
+		"combatsimulator-cobra3" = {
+				"like_ship" = "cobra3-pirate";
+				counts_as_kill = 0;
+				"ai_type" = "pirateAI.plist";
+				has_escape_pod = 0;
+				has_shield_booster = 1;				
+				has_shield_enhancer = 1;
+				missiles = 0;
+				"bounty" = 0;
+				"forward_weapon_type" = "WEAPON_BEAM_LASER";
+        "aft_weapon_type" = "WEAPON_BEAM_LASER";
+        "starboard_weapon_type" = "WEAPON_BEAM_LASER";
+        "port_weapon_type" = "WEAPON_BEAM_LASER";
+				"roles" = "combatsimulator combatsimulator-3 combatsimulator-3a";
+//				"script" = "combatsimulator_ship.js";
+		};
+
+		"combatsimulator-python" = {
+				"like_ship" = "python";
+				counts_as_kill = 0;
+				"ai_type" = "pirateAI.plist";
+				"forward_weapon_type" = "WEAPON_MILITARY_LASER";
+        "aft_weapon_type" = "WEAPON_MILITARY_LASER";
+				has_shield_booster = 1;				
+				has_shield_enhancer = 1;
+				has_escape_pod = 0;
+				missiles = 0;
+				"bounty" = 0;
+				"roles" = "combatsimulator combatsimulator-3 combatsimulator-3b";
+//				"script" = "combatsimulator_ship.js";
+		};
+
+		"combatsimulator-sidewinder3" = {
+				"like_ship" = "sidewinder";
+				counts_as_kill = 0;
+				"ai_type" = "pirateAI.plist";
+				"forward_weapon_type" = "WEAPON_MILITARY_LASER";
+				has_escape_pod = 0;
+				has_shield_booster = 1;				
+				missiles = 0;
+				"bounty" = 0;
+				"roles" = "combatsimulator combatsimulator-3 combatsimulator-3c";
+//				"script" = "combatsimulator_ship.js";
+		};
+
+}

@@ -42,6 +42,7 @@
 		"like_ship" = "sidewinder";
 		auto_weapons = 0;
 		counts_as_kill = 0;
+		"ai_type" = "combatSimulatorAI.js";
 		"forward_weapon_type" = "WEAPON_PULSE_LASER";
 		has_escape_pod = 0;
 		missiles = 0;

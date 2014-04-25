@@ -9,5 +9,11 @@
 	"author" = "cim";
 	"information_url" = "http://wiki.alioth.net/index.php/Combat_Simulator_OXP";
 	"license" = "CC-BY-SA 3.0";
-	/* TODO: depend on Ship Storage Helper */
+	"requires_oxps" = (
+		{
+			"identifier" = "oolite.oxp.CaptMurphy.ShipStorageHelper";
+			"version" = "0.21";
+			"description" = "Ship Storage Helper";
+		}
+	);
 }
